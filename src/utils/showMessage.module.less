@@ -1,0 +1,40 @@
+@import '~@/styles/global.less';
+@import '~@/styles/hunhe.less';
+@import '~@/styles/var.less';
+.message{
+ 
+    z-index: 999;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px 30px;
+    line-height:1.5;
+    display: flex;    .blockJuZhong();
+    align-items: center;
+    color: #fff;
+    transition: all 0.6s;
+    transform: translate(-50%, -50%) translateY(20px) ;
+    opacity: 0;
+    white-space: nowrap;
+    &-xinxi{
+        background: @primary;
+    }
+    &-ok{
+        background: @success;
+    }
+    &-jinggao{
+        background: @warn;
+    }
+    &-close{
+        background: @danger;
+        
+    }
+    .icon{
+        i{
+            margin-right: 10px;
+            font-size:18px;
+            color: #fff;
+
+        }
+    }
+}
+

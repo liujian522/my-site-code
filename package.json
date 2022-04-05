@@ -1,0 +1,36 @@
+{
+    "name": "my-site",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "test-pager": "vue serve ./src/components/pager/test.vue",
+        "test-icon": "vue serve ./src/components/icon/test.vue",
+        "test-avatar": "vue serve ./src/components/avatar/test.vue",
+        "test-empty": "vue serve ./src/components/empty/test.vue",
+        "test-imageLoader": "vue serve ./src/components/imageLoader/test.vue",
+        "test-siteAside": "vue serve ./src/components/siteAside/test.vue",
+        "test-layout": "vue serve ./src/components/Layout/test.vue",
+        "test-loading": "vue serve ./src/components/loading/test.vue",
+        "test-List": "vue serve ./src/views/Blog/components/list/test.vue",
+        "test-test": "vue serve ./src/test/test.vue"
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "core-js": "^3.6.5",
+        "highlight.js": "^11.3.1",
+        "nprogress": "^0.2.0",
+        "vue": "^2.6.11",
+        "vue-router": "^3.5.3",
+        "vuex": "^3.6.2"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "less": "^3.0.4",
+        "less-loader": "^5.0.0",
+        "vue-template-compiler": "^2.6.11",
+        "webpack-bundle-analyzer": "^4.5.0"
+    }
+}
